@@ -21,12 +21,18 @@ public class SchedulerDbHelper extends SQLiteOpenHelper {
 		}
 		OfficialTable.onCreate(db);
 		LeagueTable.onCreate(db);
+		FieldTable.onCreate(db);
+		ScheduleTable.onCreate(db);
+		GameTable.onCreate(db);
 	}
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		OfficialTable.onUpgrade(db, oldVersion, newVersion);
 		LeagueTable.onUpgrade(db, oldVersion, newVersion);
+		FieldTable.onUpgrade(db, oldVersion, newVersion);
+		ScheduleTable.onUpgrade(db, oldVersion, newVersion);
+		GameTable.onUpgrade(db, oldVersion, newVersion);
 	}
 
 }
