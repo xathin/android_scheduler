@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_official"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|left"
+        android:layout_row="0"
+        android:text="@string/first_name" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|left"
+        android:layout_row="1"
+        android:text="@string/last_name" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|left"
+        android:layout_row="2"
+        android:text="@string/phone1" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|left"
+        android:layout_row="3"
+        android:text="@string/phone2" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical|left"
+        android:layout_row="4"
+        android:text="@string/level" />
+    <EditText
+        android:id="@+id/official_edit_first_name"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:ems="10"
+        android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/official_edit_last_name"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/official_edit_phone1"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:ems="10"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/official_edit_phone2"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="3"
+        android:ems="10"
+        android:inputType="phone" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="5"
+        android:text="@string/min_pay" />
+    <EditText
+        android:id="@+id/official_edit_min_pay"
+        android:layout_column="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="5"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+    <EditText
+        android:id="@+id/official_edit_level"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:ems="10"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/official_confirm_button"
+        android:layout_column="1"
+        android:layout_gravity="left|top"
+        android:layout_row="6"
+        android:text="@string/confirm" />
+</GridLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/official_name_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/official_first_name_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="first"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/official_empty_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/official_last_name_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="last"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/official_level_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="level"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/official_phone1_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>
