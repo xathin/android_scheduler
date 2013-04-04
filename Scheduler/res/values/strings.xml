@@ -12,4 +12,5 @@
     <string name="min_pay">Min Pay:</string>
     <string name="empty_officials">No officials found.</string>
     <string name="confirm">Confirm</string>
+    <string name="empty_leagues">No leagues found.</string>
 </resources>
