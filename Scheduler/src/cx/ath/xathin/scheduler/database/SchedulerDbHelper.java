@@ -15,6 +15,10 @@ public class SchedulerDbHelper extends SQLiteOpenHelper {
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
+		if (!db.isReadOnly()) {
+			// Enable foreign key constraints
+			db.execSQL("PRAGMA foreign_keys=ON;");
+		}
 		OfficialTable.onCreate(db);
 		LeagueTable.onCreate(db);
 	}
