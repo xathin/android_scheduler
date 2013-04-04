@@ -13,4 +13,6 @@
     <string name="empty_officials">No officials found.</string>
     <string name="confirm">Confirm</string>
     <string name="empty_leagues">No leagues found.</string>
+    <string name="league_name">Name:</string>
+    <string name="league_pay">Pay:</string>
 </resources>
